@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(imagenes/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form h1{
+    font-size: 36px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(143, 20, 34);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.box{
+    background-color: rgba(255, 255, 255, 0.542);
+    padding: 20px;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+}
+.header h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.contraseña {
+    display: block;
+    margin: 10px 0;
+    color: blue;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+label {
+    font-size: 14px;
+}
+
